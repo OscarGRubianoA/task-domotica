@@ -1,14 +1,24 @@
 *{margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: cursive;
 }
 
 
 @media only screen and (min-width: 300px) and (max-width:450px) {
+   
     header{ display:flex;
         flex-direction: column;
         justify-content:center;
         align-items:center;
+        padding: .5rem ;
+        background-color: #424242;
+        color: white;
+
+    }
+    .image__header
+    {
+        border-radius: 1rem;
     }
     header div {
 display: flex;
@@ -16,26 +26,37 @@ justify-content: space-between;
 align-items: center;
 
 width: 100%;
+border-radius: 1rem;
+margin: .3rem;
+
+    }
+    .header__bottom
+    {display: flex;
+        flex-direction: column;
+        background-color: black;
+        padding: 1rem;
     }
     header div img {
         height: 2rem;
     }
     header div h1{
 position: relative;
-right: 2rem;
+right: .7rem;
     }
     main{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        background-color: aqua;
-        gap: 3rem;
+        
+        gap: 1rem;
+       padding: 1rem;
+        background-color: #707070;;
        
     }
     main div {
 display: flex;
-gap: 3rem;
+gap: 1rem;
 
     }
     section{
@@ -43,16 +64,46 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+gap: .5rem;
+color: white;
+    }
+    .section__special
+    {
+        gap: 0;
+    }
+    .section__special div{
+        position: relative;
+        top:.3rem;
     }
     section img{
 
         height: 6rem;
-        width: 5rem;
+        width: 6rem;
+        border-radius: 1rem;
+    }
+    section img:hover
+    {
+        height: 6.5rem;
+        width: 6.5rem;
+    }
+    section h5:hover{
+        color:#000000 ;
+        font-size: 1rem;
     }
     section div{
         display: flex;
         justify-content: center;
         align-items: center;
+        
+        
+
+    }
+    section div:hover
+    {color: black;
+    }
+    footer{
+        background-color: black;
+        height: 6rem;
     }
     
   }
