@@ -98,8 +98,8 @@ color: white;
         
 
     }
-    section div:hover
-    {color: black;
+    section div:hover{
+        color: black;
     }
     footer{
         background-color: black;
